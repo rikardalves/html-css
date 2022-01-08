@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+span > p:first-of-type{
+    display: none;
+}
+li > span{
+    display: none;
+    color: white;
+    background-color: gray;
+    padding: 3px;
+    text-align: justify;
+    border-radius: 2px;
+    text-indent: 18px;
+}
+li:hover > span, span#imagem:hover > p{
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2.5px;
+    padding-right: 1.5px;
+}
+a:active{
+    font-size: 1.1em;
+}
+a#instagram{
+    color: rgb(153, 0, 255);
+}
+a#instagram:hover{
+    color: white;
+    background-color: rgb(153, 0, 255);
+}
+a#facebook{
+    color: blue;
+}
+a#facebook:hover{
+    color: white;
+    background-color: blue;
+}
+a#github{
+    color: black;
+}
+a#github:hover{
+    color: white;
+    background-color: black;
+}
+a#twitter{
+    color: rgb(0, 132, 255);
+}
+a#twitter:hover{
+    color: white;
+    background-color: rgb(0, 132, 255);
+}
+a#youtube{
+    color: red;
+}
+a#youtube:hover{
+    color: white;
+    background-color: red;
+}
+/**a#instagram:visited, a#facebook:visited, a#github:visited, a#twitter:visited, a#youtube:visited{
+    color: black;
+    background-color: white;
+}**/

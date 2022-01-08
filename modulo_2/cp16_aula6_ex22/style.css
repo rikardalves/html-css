@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    background-color: #97D7E6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 0px;
+}
+
+header{
+    background-color: white;
+    color: white;
+    text-align: center;
+    margin: 20px 0px;
+    height: 83px;
+}
+
+header > h1{
+    background-color: #235661;
+    height: 44px;
+    padding-top: 6px;
+    margin-bottom: 6px;
+}
+
+header > nav > a{
+    display: inline-block;
+    background-color: #235661;
+    color: white;
+    text-decoration: none;
+    width: 97px;
+    height: 20px;
+    padding-top: 2px;
+    margin: 0px 8px;
+}
+main{
+    background-color: white;
+    margin: auto 9px;
+    padding: 5px;
+}
+
+main > section > h2{
+    margin-top: 0px;
+}
+
+section, aside{
+    display: inline-block;
+    padding: 8px;
+    border: 2px solid black;
+}
+
+article{    
+    padding: 8px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+section{
+    width: 64%;
+    margin-right: 2px;
+}
+
+main > aside{
+    width: 30%;
+    padding-bottom: 22.6px;
+}
+
+main > section > article#blabla > h3, main > section > article#blabla > p{
+    display: inline-block;
+    width: auto;
+}
+
+main > section > article#blabla > p{
+    width: 35em;
+}
+
+main > section > article#blabla > aside{
+    width: 23.5em;
+}
+
+article#blabla{
+    width: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+    margin: 10px 0px;
+}
+
+footer > p{
+    margin: 0px;
+}

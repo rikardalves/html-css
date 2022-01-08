@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/**Tag a**/
+a{
+    text-decoration: none;
+}
+a#teste:link{
+    color: lightcoral;
+}
+a#teste:focus{
+    color: gray;
+}
+a#teste:focus::after{
+    content: " :) Salve!";
+    font: normal bold 0.8em sans-serif;
+    color: purple;
+}
+a#teste:active{
+    color: green;
+}
+a#teste:active::after{
+    content: "";
+}
+span > p{
+    display: none;
+}
+span:hover > p{
+    display: inline;
+}
+/**Classe relembrar**/
+.relembrar::after{
+    content: " Este elemento é da classe relembrar";
+    color: greenyellow;
+    background-color: black;
+}
+p.relembrar::first-line{
+    color: red;
+    text-decoration: underline;
+}

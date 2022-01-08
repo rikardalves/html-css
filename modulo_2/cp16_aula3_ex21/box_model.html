@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        body{
+            border: 5px solid crimson;
+            padding: 0px 5px;
+        }
+        p{
+            background-color: lightgray;
+            width: 18em;
+        }
+        a{
+            border: 2px dashed red;
+            width: 18px;
+        }
+        .inline-block{
+            border: none;
+            display: inline-block;
+            text-align: center;
+            width: 200px;
+            padding: 10px;
+            border: 2px solid green;
+            outline: 5px solid purple;
+            margin: 0.375em 2em;
+        }
+        p#largo{
+            width: auto;
+            padding-top: 2px;
+            padding-right: 1px;
+            padding-bottom: 1px;
+            padding-left: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>As tags &lt;h1&gt;-&lt;h6&gt; são box level</h1>
+    <p>A tag &lt;p&gt; também é block-level, e você pode conferir isso usando o modo desenvolvedor do navegador.</p>
+    <p id="largo">O link seguinte é inline, <a href="#">Link para testar inline-level</a> já o próximo é inline-block, já que foi mudado pelo display. Levels inline-block suportam a mudança de tamanho da box-sizing e os tamanhos verticais são considerados, diferente do level inline<a href="#" class="inline-block">Link com inline-block</a> se na shorthand de border e outline for especificado só o tamanho e o estilo, a cor será do próprio texto.</p>
+</body>
+</html>

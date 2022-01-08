@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+p{
+    text-decoration: underline;
+    text-indent: 20px;
+}
+.exemplo{
+    text-decoration: none;
+    color: green;
+}
+em{
+    color: red;
+    font-style: normal;
+}
+h2.exemplo{
+    font-style: italic;
+}
+span.exemplo{
+    font-weight: bolder;
+}
+abbr{
+    color: gray;
+    text-decoration: none;
+}

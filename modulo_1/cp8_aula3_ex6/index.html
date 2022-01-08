@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Formatações</title>
+    <style>
+        h1{
+            font-family: Cambria;
+            font-size: 30pt;
+        }
+        h2{
+            font-family: 'Trebuchet MS';
+        }
+        p{
+            font: normal 11pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações<hr></h1>
+    <h2>Destaque(negrito)</h2>
+    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ex deserunt veniam voluptas recusandae</strong> perferendis officiis hic quas, error culpa eius laudantium eum placeat, laboriosam dolores nesciunt, rem enim quam.</p>
+
+    <h2>Ênfase(itálico)</h2>
+    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam dolores facere esse commodi? Molestias</em> veritatis tempore dignissimos dolore, cumque hic in laborum itaque blanditiis maxime eius eum perspiciatis temporibus.</p>
+
+    <h2>Texto marcado</h2>
+    <p><mark style="background-color: cyan;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et debitis optio minus, consequatur libero</mark> sed expedita neque facilis iste, molestias placeat, qui fuga temporibus in perferendis vitae ad commodi. Illum.</p>
+
+    <h2>Texto grande(obsoleta) e pequeno</h2>
+    <p><big>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla minus</big> magnam dicta facere debitis asperiores aut molestias officiis! <small>Ab minima odit non quaerat dolorem consequatur labore quod impedit incidunt id.</small></p>
+
+    <h2>Texto deletado</h2>
+    <p><del>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</del> Voluptates incidunt animi optio, veritatis esse reprehenderit quaerat magni necessitatibus possimus, totam aperiam rerum cupiditate ipsum? Ipsum sequi voluptates quibusdam amet esse.</p>
+
+    <h2>Texto inserido</h2>
+    <p><ins>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum</ins> aperiam obcaecati doloribus, in velit sapiente, maxime mollitia esse, consequatur quia impedit laboriosam debitis. Enim fuga inventore neque fugit tempora veritatis.</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Em seguida vamos ver um texto sobrescrito, para utilizar em fórmular matemáticas por exemplo: ax<sup>2</sup> + bx + c</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Em seguida vamos ver um texto subscrito, para utilizar em fórmular químicas por exemplo: H<sub>2</sub>O</p>
+
+    <h2>Texto com endereço</h2>
+    <p>Exemplo de endereço: <address>Rua Colinas Sanchez, 342, Villa Caynston, Peque, Brezill</address></p>
+
+    <h2>Código de python(code e pre)</h2>
+    <p><pre><code>
+def soma(n1, n2):
+    try:
+        resolution = float(n1) + float(n2)
+    exception:
+           resolution = False
+       rreturn resolution
+    </code></pre></p>
+
+    <h2>Imagem</h2>
+    <img src="images/octopus_guana-small.png" alt="Imagem do Guanabara polvo pequena">
+    <script>
+        window.alert('A gente tenta né')
+        var mesage = String(window.prompt('Deixe seu recado aí'))
+        var confirmation = window.confirm('Aprendendo legalzinho? ')
+        document.write(`<br>Recado do usuário: ${mesage.toUpperCase()}`)
+        document.write(`<br>${typeof confirmation}`)
+    </script>
+</body>
+</html>

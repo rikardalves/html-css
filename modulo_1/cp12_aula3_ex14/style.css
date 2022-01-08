@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/**Regra charset para evitar incompatibilidade com acentuações**/
+
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    background-color: peru;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: sienna;
+    text-decoration: none;
+}

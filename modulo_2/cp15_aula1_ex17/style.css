@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+p#exemplo{
+    color: gray;
+    font-weight: bolder;
+}
+p#conclusao{
+    color: green;
+}
+em{
+    color: red;
+    font: normal bold 1em serif;
+}
+strong{
+    color: purple;
+    font-style: italic;
+}

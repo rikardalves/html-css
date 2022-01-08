@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Death Note';
+    src: url(../fonts/DEATH_FONT.TTF) format('truetype');
+}
+        @font-face {
+            font-family: 'Death Rules';
+            src: url(../fonts/DEATHNOTEFont.ttf) format('truetype');
+        }
+        body{
+            color: white;
+            background-color: black;
+        }
+        h1{
+            font-family: 'death note';
+            font-size: 2em;
+            text-align: center;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'Death Rules';
+            text-align: center;
+        }
+        ul{
+            font-family: 'Death Rules';
+            font-size: 1.1em;
+            margin-bottom: 22em;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            font-family: 'Death Note';
+        }

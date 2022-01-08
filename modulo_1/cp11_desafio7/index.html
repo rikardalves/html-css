@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem cropada</title>
+    <style>
+        body{
+            color: white;
+            background-color: rgb(26, 26, 26);
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio da imagem</h1>
+    <p>Uma imagem que se autoajusta sendo cortada</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="images/lo-fi-390p.jpg">
+        <source media="(max-width: 680px)" srcset="images/lo-fi-520p.jpg">
+        <source media="(max-width: 750px)" srcset="images/lo-fi-650p.jpg">
+        <source media="(max-width: 990px)" srcset="images/lo-fi-720p.jpg">
+        <source media="(max-width: 1150px)" srcset="images/lo-fi-960p.jpg">
+        <img src="images/lo-fi-original.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>

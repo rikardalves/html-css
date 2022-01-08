@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body{
+    color: whitesmoke;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
