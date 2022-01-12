@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        div#container{
+            background: coral url(images/target001.png) center center no-repeat;
+            background-size: 110% 110%;
+            position: relative;
+            width: 96vw;
+            height: 400px;
+            margin: auto;
+        }
+        div#conteudo{
+            background: blue url(images/target001.png) center center no-repeat;
+            background-size: 100% 100%;
+            position: absolute;
+            transform: rotate(45deg) translate(-70%);
+            width: max(140px, 4vw);
+            height: max(140px, 4vw);
+            left: 50%;
+            top: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="conteudo"></div>
+    </div>
+    
+</body>
+</html>
