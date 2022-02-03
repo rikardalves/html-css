@@ -1,43 +1,30 @@
 @charset "UTF-8";
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    width: 940px;
-    margin: auto;
+
+
+header {
+    background-color: #2D5377;
 }
 
-header > h1{
-    color: #3D3D3D;
-    background-color: #E1EDF2;
-    padding: 10px;
-}
+header img {
+    display: block;
 
-figure{
-    border: 1px solid lightgray;
-    background-color: whitesmoke;
-    text-align: center;
     padding: 15px;
-    margin: 30px;
-}
-
-figure > figcaption{
-    margin-top: 10px;
-}
-
-figure#matriz{
-    width: 550px;
     margin: auto;
 }
 
-figure#familia_tupfeln{
-    width: 275px;
-    float: right; /* ANOTAR!!!! */
+.menu {
+    color: white;
+    background-color: #272B3A87;
+
+    display: flex;
+
+    justify-content: space-between;
+    padding: 16px;
 }
 
-img{
-    width: inherit;
-}
-
-h2{
-    border-bottom: 2px solid black;
+.menu > a {
+    color: white;
+    
+    text-decoration: none;
 }
