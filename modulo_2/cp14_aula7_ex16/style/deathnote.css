@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'Death Note';
-    src: url(../fonts/DEATH_FONT.TTF) format('truetype');
+    src: url(../fonts/death_font.ttf) format('truetype');
 }
         @font-face {
             font-family: 'Death Rules';
-            src: url(../fonts/DEATHNOTEFont.ttf) format('truetype');
+            src: url(../fonts/death_note_font.ttf) format('truetype');
         }
         body{
             color: white;
